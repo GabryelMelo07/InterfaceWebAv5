@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>IFRS E-commerce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="../AV5/img/favicon.png">
+</head>
+
+<body>
+
+    <header class="jumbotron text-center" style="margin-bottom:0">
+        <h1 id="nomeloja" class="display-4">IFRS E-commerce</h1>
+        <p>Vendas de itens de tecnologia em geral</p>
+    </header>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="../AV5/Home.html">Página Inicial</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../AV5/Produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../AV5/Formulario.html">Formulário de Cadastro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../AV5/HistoricoEmpresa.html">Histórico da Empresa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../AV5/DadosVendas.html">Dados de Vendas</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <div id="login" class="input-group">
+                    <label>
+                        <input type="text" class="form-control" placeholder="Usuario">
+                    </label>
+                    <label>
+                        <input type="password" class="form-control" placeholder="Senha">
+                    </label>
+                    <label>
+                        <button id="sendbtn3" type="submit" class="btn btn-primary">Enviar</button>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <main class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-dark table-hover">
+                    <caption class="cap1">Vendas por Mês (Primeiros 4 meses de 2021)</caption>
+                    <thead>
+                        <tr>
+                            <th>Mês</th>
+                            <th>Vendas</th>
+                            <th>Lucro Total</th>
+                            <th>Produtos Mais Vendidos p/ Mês</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Janeiro</td>
+                            <td>1.763</td>
+                            <td>R$ 14.560</td>
+                            <td>Monitor Samsung: 62 (3,5% das vendas)</td>
+                        </tr>
+                        <tr>
+                            <td>Fevereiro</td>
+                            <td>2.280</td>
+                            <td>R$ 16.195</td>
+                            <td>Mouse Corsair: 111 (4,8% das vendas)</td>
+                        </tr>
+                        <tr>
+                            <td>Março</td>
+                            <td>1.931</td>
+                            <td>R$ 17.839</td>
+                            <td>Memória Crucial: 75 (3,8% das vendas)</td>
+                        </tr>
+                        <tr>
+                            <td>Abril</td>
+                            <td>1.353</td>
+                            <td>R$ 17.871</td>
+                            <td>Memória Kingston: 51 (3,7% das vendas)</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td>8.574</td>
+                            <td>R$ 66.465</td>
+                            <td>Mais vendido: Mouse Corsair</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 offset-md-8">
+                    <ul id="lista" class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-action"><a id="l1" href="../AV5/Produtos.html">Hardware:</a></li>
+                        <li class="list-group-item">Memória RAM Kingston Fury 8GB DDR4 3000MHz</li>
+                        <li class="list-group-item">Memória RAM Crucial Ballistix 8GB DDR4 2666MHz</li>
+                        <li class="list-group-item list-group-item-action"><a id="l2" href="../AV5/Produtos.html">Periféricos:</a></li>
+                        <li class="list-group-item">Mouse Gamer Corsair Harpoon RGB 12000DPI 6 Botões</li>
+                        <li class="list-group-item">Headset Gamer Sem Fio Astro Gaming A50 Base Station Dolby Audio PS4, PC, Mac</li>
+                        <li class="list-group-item">Fone de Ouvido Bluetooth Multilaser Recarregável Preto</li>
+                        <li class="list-group-item list-group-item-action"><a id="l3" href="../AV5/Produtos.html">Monitores:</a></li>
+                        <li class="list-group-item">Monitor Gamer Samsung Led 22" Full HD Free Sync</li>
+                        <li class="list-group-item">Monitor Gamer AOC Led 25" Full HD HDMI, Display Port, Gsync 240Hz1ms</li>
+                        <li class="list-group-item list-group-item-action"><a id="l4" href="../AV5/Produtos.html">Consoles:</a></li>
+                        <li class="list-group-item">Nintendo Switch 32GB 1x Joycon Neon Azul e Vermelho</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="fot" class="jumbotron text-center" style="margin-bottom:0">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Endereço do campus Rio Grande: R. Alm. Barroso - Parque Res. Salgado Filho, Rio Grande - RS,
+                    96201-550.</p>
+                <p>Telefone: (53) 3233-8681</p>
+                <p>E-mail: gabinete@ifrs.edu.br</p>
+                <p>Redes sociais:</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="facebook">
+                    <a href="https://www.facebook.com/IFRSOficial">
+                        <img src="img/socialmedia/facebook.png" class="facebook" alt="facebook icon">
+                    </a>
+                </div>
+
+                <div class="instagram">
+                    <a href="https://instagram.com/ifrsoficial">
+                        <img src="img/socialmedia/instagram.png" class="instagram" alt="instagram icon">
+                    </a>
+                </div>
+
+                <div class="youtube">
+                    <a href="https://www.youtube.com/c/IFRSOficial">
+                        <img src="img/socialmedia/youtube.png" class="youtube" alt="youtube icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
